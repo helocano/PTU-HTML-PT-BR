@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(245, 244, 248);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: rgb(103, 87, 124);
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    float: left;
+    align-items: top;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+nav li:hover {
+    background-color: rgb(67, 51, 88);
+
+}
+
+li {
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+    margin-left: 15px;
+
+}
+
+ul li {
+    list-style-image: url('../assets/img/icons/pokebola.png');
+}
+
+main {
+    background-color:  rgb(233,199,255);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2.5px;
+    box-shadow: 0px 10px 8px #3e0e4b;
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+#grifado {
+    background-color: #b0a0bc;
+}
+
+a {
+    color: rgb(116, 64, 165);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    color: #694c80;
+    font-size: 35px;
+}
+
+h2 {
+    color: #82649b;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: #55337c;
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    color:  #55337c;
+    font-size: 22px;
+    text-align: center;
+}
+
+.recurso-classe>h4 {
+    color: #6c4681;
+}
+
+#inside>h4 {
+    color: #af5b77;
+}
+
+.flexbox {
+    box-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.flexbox-vertical {
+    box-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.flex-itens {
+    box-sizing: border-box;
+    padding: 5px;
+    position: relative;
+    margin: 8px;
+    background-color: #ae8ad6;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(27, 27, 51);
+    border-radius: 4px;
+}
+
+#inside {
+    background-color:  #dfb8c5;
+}
+
+.item {
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 20px;
+    position: relative;
+    background-color: 	#d3aee9;
+    box-shadow: 3px 3px 5px #d3aee9;
+    border-radius: 4px;
+}
+
+
+.recurso-classe {
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 20px;
+    position: relative;
+    background-color: 	#c38ee2;
+    box-shadow: 3px 3px 5px #664975;
+    border-radius: 4px;
+}
+
+#GifFinal {
+    width: 200px;
+}
+
+.obs {
+    background-color: #ebbbe7;
+    border-radius: 4px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px #e08cb3;
+    padding: 1px;
+}
+
+#RecursosDeEspecialistaEmBeleza {
+    background-color: rgb(156, 170, 230);
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(27, 27, 51);
+    border-radius: 4px;
+}
+
+#RecursosDeEspecialistaEmBeleza>h3 {
+    color: rgb(86, 100, 163);
+}
+
+#RecursosDeEspecialistaEmBeleza .flex-itens {
+    background-color: rgb(112, 126, 187);
+}
+
+#RecursosDeEspecialistaEmBeleza .flex-itens > h4 {
+    color: rgb(48, 59, 110)
+}
+
+
+#RecursosDeEspecialistaEmLegal {
+    background-color: rgb(230, 156, 156);
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(27, 27, 51);
+    border-radius: 4px;
+}
+
+#RecursosDeEspecialistaEmLegal>h3 {
+    color: rgb(163, 86, 86);
+}
+
+#RecursosDeEspecialistaEmLegal .flex-itens {
+    background-color: rgb(187, 112, 112);
+}
+
+#RecursosDeEspecialistaEmLegal .flex-itens > h4 {
+    color: rgb(110, 48, 48)
+}
