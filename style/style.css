@@ -54,7 +54,7 @@ main {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     margin-left: 5px;
 
@@ -140,7 +140,7 @@ h4 {
     margin: 20px;
     position: relative;
     background-color: 	#d3aee9;
-    box-shadow: 3px 3px 5px #d3aee9;
+    box-shadow: 3px 3px 5px #5b4668;
     border-radius: 4px;
 }
 
@@ -198,12 +198,12 @@ h4 {
     position: relative;
     margin: 8px;
     width: 100%;
-    box-shadow: 3px 3px 5px rgb(27, 27, 51);
+    box-shadow: 3px 3px 5px rgb(146, 69, 69);
     border-radius: 4px;
 }
 
 #RecursosDeEspecialistaEmLegal>h3 {
-    color: rgb(163, 86, 86);
+    color: rgb(146, 69, 69);
 }
 
 #RecursosDeEspecialistaEmLegal .flex-itens {
@@ -212,4 +212,78 @@ h4 {
 
 #RecursosDeEspecialistaEmLegal .flex-itens > h4 {
     color: rgb(110, 48, 48)
+}
+
+
+#RecursosDeEspecialistaEmFofura {
+    background-color: rgb(235, 191, 211);
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(146, 69, 99);
+    border-radius: 4px;
+}
+
+#RecursosDeEspecialistaEmFofura>h3 {
+    color: rgb(146, 69, 99);
+}
+
+#RecursosDeEspecialistaEmFofura .flex-itens {
+    background-color: rgb(223, 143, 167);
+}
+
+#RecursosDeEspecialistaEmFofura .flex-itens > h4 {
+    color: rgb(110, 48, 61)
+}
+
+
+
+#RecursosDeEspecialistaEmInteligencia {
+    background-color: rgb(191, 235, 191);
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(78, 146, 69);
+    border-radius: 4px;
+}
+
+#RecursosDeEspecialistaEmInteligencia>h3 {
+    color: rgb(69, 146, 73);
+}
+
+#RecursosDeEspecialistaEmInteligencia .flex-itens {
+    background-color: rgb(143, 223, 150);
+}
+
+#RecursosDeEspecialistaEmInteligencia .flex-itens > h4 {
+    color: rgb(48, 110, 51)
+}
+
+
+
+#RecursosDeEspecialistaEmDureza {
+    background-color: rgb(235, 234, 191);
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(146, 145, 69);
+    border-radius: 4px;
+}
+
+#RecursosDeEspecialistaEmDureza>h3 {
+    color: rgb(146, 141, 69);
+}
+
+#RecursosDeEspecialistaEmDureza .flex-itens {
+    background-color: rgb(215, 223, 143);
+}
+
+#RecursosDeEspecialistaEmDureza .flex-itens > h4 {
+    color: rgb(104, 110, 48)
 }
