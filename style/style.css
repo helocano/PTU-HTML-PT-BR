@@ -1,6 +1,7 @@
 body {
     background-color: rgb(245, 244, 248);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
 nav {
@@ -32,7 +33,6 @@ nav li:hover {
 }
 
 li {
-    font-size: 20px;
     text-align: left;
     padding: 15px;
     margin-left: 15px;
@@ -54,7 +54,6 @@ main {
 }
 
 p {
-    font-size: 18px;
     text-align: left;
     margin-left: 5px;
 
@@ -286,4 +285,41 @@ h4 {
 
 #RecursosDeEspecialistaEmDureza .flex-itens > h4 {
     color: rgb(104, 110, 48)
+}
+
+
+
+#Receitas_do_Chefe {
+    background-color: rgb(211, 235, 191);
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+    margin: 8px;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgb(70, 94, 51);
+    border-radius: 4px;
+}
+
+#Receitas_do_Chefe > h3 {
+    color: rgb(70, 94, 51);
+}
+
+#Receitas_do_Chefe .flex-itens {
+    background-color: rgb(160, 218, 127);
+    box-shadow: 3px 3px 5px rgb(70, 94, 51);
+}
+
+#Receitas_do_Chefe .flex-itens > h4 {
+    color: rgb(75, 134, 40);
+}
+
+
+
+#Lanchinho_Gostoso .flex-itens {
+    background-color: rgb(212, 218, 127);
+    box-shadow: 3px 3px 5px rgb(93, 94, 51);
+}
+
+#Lanchinho_Gostoso .flex-itens > h4 {
+    color: rgb(119, 121, 49);
 }
